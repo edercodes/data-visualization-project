@@ -18,4 +18,4 @@ ax.axis([0, 1100, 0, 1100000])      ### axis() method specifies the range of eac
 # Set size of tick labels.
 ax.tick_params(axis='both', which='major', labelsize=14)
 
-plt.savefig('squares_plot.png', bbox_inches='tight')
+plt.savefig('squares_plot.png', bbox_inches='tight'
