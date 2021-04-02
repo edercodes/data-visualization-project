@@ -21,7 +21,7 @@ class RandomWalk:
             # Decide which direction to go and how far to go in that direction.
             x_direction = choice([1, -1])       ### value is set for each direction, 1 for right, and -1 for left, same for y below
             x_distance = choice([0, 1, 2, 3, 4])
-            x_step = x_direction * x_distance       ### length fo each step determined by multiplying direction of movement and dsitance chosen
+            x_step = x_direction * x_distance       ### length of each step determined by multiplying direction of movement and dsitance chosen
 
             y_direction = choice([1, -1])
             y_distance = choice([0, 1, 2, 3, 4])
