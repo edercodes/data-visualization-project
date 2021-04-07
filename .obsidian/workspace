@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "7b5759943bab3913",
+    "type": "split",
+    "children": [
+      {
+        "id": "a16088222761b7f3",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "squares_plot.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec8e88400189238a",
+    "type": "split",
+    "children": [
+      {
+        "id": "27d66bebda2e4122",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f65880d7bd62dbf4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2b54eff56f7e2883",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a19681f408bb8d2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0e1a94e3d4abefb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5227845c857a09e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "squares_plot.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a16088222761b7f3",
+  "lastOpenFiles": [
+    "squares_plot.png",
+    "README.md"
+  ]
+}
