@@ -8,14 +8,14 @@ print(f"Status code: {r.status_code}")
 
 # Store API response in a variable.
 response_dict = r.json()
-print(f"Total repositories: {response_dict['total_count']}")        ### prints value associated with total count, total repos on GH
+print(f"Total repositories: {response_dict['total_count']}")
 
 # Explore information about the repositories.
-repo_dicts = response_dict['items']        ### a list that contains data from an individual Python repo
+repo_dicts = response_dict['items']
 print(f"Repositories returned: {len(repo_dicts)}")
 
-print("\nSelected information about each repository:")      ### prints an introductory message
-for repo_dict in repo_dicts:        ### lopps through all the dictionaries in repo_dicts
+print("\nSelected information about each repository:")
+for repo_dict in repo_dicts:
     print("\nSelected information about first repository:")
     print(f"Name: {repo_dict['name']}")
     print(f"Owner: {repo_dict['owner']['login']}")
