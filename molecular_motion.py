@@ -11,7 +11,7 @@ while True:
     # Plot the points in the walk.
     plt.style.use('classic')
     fig, ax = plt.subplots(figsize=(15, 9))
-    point_numbers = range(rw.num_points)        ### generates a list of numbers equal to the number of points in the walk
+    point_numbers = range(rw.num_points)
     ax.plot(rw.x_values, rw.y_values, linewidth=1)
 
     # Emphasize the first and last points.
