@@ -1,14 +1,14 @@
-from random import choice   ### random decisions are made by storing moves in a list and using the choice() function, from random module
-                            ### to decide which move to make each time a step is taken
+from random import choice
+                           
 class RandomWalk:
     """A class to generate random walks."""
 
-    def __init__(self, num_points=5000):    ### default number of points is made
+    def __init__(self, num_points=5000):
         """Initialize attributes of a walk."""
 
         self.num_points = num_points
 
-        # All walks start at (0,0).     ### list is made for both values
+        # All walks start at (0,0).
         self.x_values = [0]
         self.y_values = [0]
 
@@ -16,12 +16,12 @@ class RandomWalk:
         """Calculate all the points in the walk."""
 
         # Keep taking steps until the walk reaches the desired length.
-        while len(self.x_values) < self.num_points:     ### loop is set up to run until walk is filled with correct number of points
+        while len(self.x_values) < self.num_points:
 
             # Decide which direction to go and how far to go in that direction.
-            x_direction = choice([1, -1])       ### value is set for each direction, 1 for right, and -1 for left, same for y below
+            x_direction = choice([1, -1])      
             x_distance = choice([0, 1, 2, 3, 4])
-            x_step = x_direction * x_distance       ### length of each step determined by multiplying direction of movement and dsitance chosen
+            x_step = x_direction * x_distance
 
             y_direction = choice([1, -1])
             y_distance = choice([0, 1, 2, 3, 4])
